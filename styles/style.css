@@ -171,3 +171,47 @@
     font-size: 32px;
     font-weight: 700;
 }
+
+/* Online Videos  */
+.online-video-games {
+    margin: 150px auto;
+    padding: 180px 180px;
+}
+.online-video-games h1 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.videos-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    height: 450px;
+    width: 320px;
+}
+.card img {
+    width: 100%;
+}
+.card-description {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.text-primary {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
