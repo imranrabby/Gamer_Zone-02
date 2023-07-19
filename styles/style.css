@@ -291,3 +291,25 @@ color: #0B0223;
 font-size: 20px;
 font-weight: 600;
 }
+
+/* Footer Section */
+footer {
+    background-color: #0B0223;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.footer-links {
+    margin-bottom: 20px;
+}
+.footer-icons {
+    margin: 20px auto;
+}
+.footer-title {
+    color: #fff;
+}
