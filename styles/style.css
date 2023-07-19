@@ -58,6 +58,7 @@
     margin: 40px auto 0;
     align-items: center;
     padding: 180px;
+    
 }
 .banner-content {
     width: 50%;
@@ -126,4 +127,47 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 45px;
+}
+
+/* Gamer Section  */
+.gamer-section {
+    display: flex;
+    min-width: 50px;
+    margin: 10px auto 0;
+    align-items: center;
+    padding: 180px;
+    height: 30vh;
+    
+}
+.game-img {
+    width: 50%;
+}
+.game-img img {
+    width: 100%;
+}
+.game-content {
+    width: 50%;
+    text-align: end;
+
+}
+.game-header {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.game-description {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.game-quote {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
 }
