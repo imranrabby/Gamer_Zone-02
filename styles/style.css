@@ -259,3 +259,35 @@
 .play{
     color: #F948B2;
 }
+
+/* game-tags */
+.game-tags{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1400px;
+    min-height: 200px;
+    margin: 20px auto 0;
+    align-items: center;
+    gap: 27px;
+    flex-wrap: wrap;
+}
+.game-tag{
+    display: flex;
+    align-items: center;
+    padding: 18px 20px;
+    border-radius: 50px;
+    background: #FFF;
+}
+.game-tag:hover{
+    border: 1px solid #F948B2;
+
+}
+.game-tag p:hover{
+    color: #F948B2;
+}
+.game-tag p{
+color: #0B0223;
+font-size: 20px;
+font-weight: 600;
+}
